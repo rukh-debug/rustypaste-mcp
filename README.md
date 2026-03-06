@@ -25,7 +25,7 @@ Add the following to your MCP client configuration (e.g., `~/.config/claude/clau
       "command": "npx",
       "args": [
         "-y",
-        "@myusername/rustypaste-mcp"
+        "@rukh-debug/rustypaste-mcp"
       ],
       "env": {
         "RUSTYPASTE_URL": "https://paste.example.com",
