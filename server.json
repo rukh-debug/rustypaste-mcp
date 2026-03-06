@@ -10,7 +10,7 @@
     "packages": [
         {
             "registryType": "npm",
-            "identifier": "@rukh-debug/rustypaste-mcp",
+            "identifier": "@rukh-pub/rustypaste-mcp",
             "version": "1.0.1",
             "transport": {
                 "type": "stdio"
