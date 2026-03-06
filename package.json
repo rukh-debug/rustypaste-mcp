@@ -1,5 +1,6 @@
 {
-    "name": "rustypaste-mcp-server",
+    "name": "@rukh-debug/rustypaste-mcp",
+    "mcpName": "io.github.rukh-debug/rustypaste-mcp",
     "version": "1.0.0",
     "description": "An MCP server that wraps the rustypaste API",
     "main": "dist/index.js",

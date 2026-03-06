@@ -1,0 +1,35 @@
+{
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name": "io.github.rukh-debug/rustypaste-mcp",
+    "description": "An MCP server that wraps the rustypaste API",
+    "repository": {
+        "url": "https://github.com/rukh-debug/rustypaste-mcp",
+        "source": "github"
+    },
+    "version": "1.0.0",
+    "packages": [
+        {
+            "registryType": "npm",
+            "identifier": "@rukh-debug/rustypaste-mcp",
+            "version": "1.0.0",
+            "transport": {
+                "type": "stdio"
+            },
+            "environmentVariables": [
+                {
+                    "description": "The URL of the rustypaste server",
+                    "isRequired": true,
+                    "format": "string",
+                    "name": "RUSTYPASTE_URL"
+                },
+                {
+                    "description": "The authentication token for the rustypaste server",
+                    "isRequired": false,
+                    "format": "string",
+                    "isSecret": true,
+                    "name": "RUSTYPASTE_AUTH_TOKEN"
+                }
+            ]
+        }
+    ]
+}
