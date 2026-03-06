@@ -25,18 +25,16 @@ Add the following to your MCP client configuration (e.g., `~/.config/claude/clau
       "command": "npx",
       "args": [
         "-y",
-        "@rukh-debug/rustypaste-mcp"
+        "@rukh-pub/rustypaste-mcp"
       ],
       "env": {
         "RUSTYPASTE_URL": "https://paste.example.com",
-        "RUSTYPASTE_AUTH_TOKEN_FILE": "/absolute/path/to/token.txt"
+        "RUSTYPASTE_AUTH_TOKEN": "<your-token-here>"
       }
     }
   }
 }
 ```
-
-*Note: You can alternatively use `"RUSTYPASTE_AUTH_TOKEN": "<your-token-here>"` instead of `RUSTYPASTE_AUTH_TOKEN_FILE` if you prefer to provide the token directly.*
 
 ## License
 

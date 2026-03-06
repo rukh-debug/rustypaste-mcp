@@ -6,12 +6,12 @@
         "url": "https://github.com/rukh-debug/rustypaste-mcp",
         "source": "github"
     },
-    "version": "1.0.1",
+    "version": "1.0.3",
     "packages": [
         {
             "registryType": "npm",
             "identifier": "@rukh-pub/rustypaste-mcp",
-            "version": "1.0.1",
+            "version": "1.0.3",
             "transport": {
                 "type": "stdio"
             },
@@ -24,7 +24,7 @@
                 },
                 {
                     "description": "The authentication token for the rustypaste server",
-                    "isRequired": false,
+                    "isRequired": true,
                     "format": "string",
                     "isSecret": true,
                     "name": "RUSTYPASTE_AUTH_TOKEN"

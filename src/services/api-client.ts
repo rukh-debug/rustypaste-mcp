@@ -155,7 +155,7 @@ export class RustypasteClient {
                 switch (status) {
                     case 401:
                         return new Error(
-                            `Authentication failed (401). Check your RUSTYPASTE_AUTH_TOKEN or RUSTYPASTE_AUTH_TOKEN_FILE. Server: ${body}`
+                            `Authentication failed (401). Check your RUSTYPASTE_AUTH_TOKEN. Server: ${body}`
                         );
                     case 403:
                         return new Error(
